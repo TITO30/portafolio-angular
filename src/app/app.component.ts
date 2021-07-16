@@ -7,4 +7,26 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ErnestoApp';
+
+  Menu=[{
+    'titulo':'¿Quien soy?',
+    'icon':'',
+    'url':''
+  },
+  {
+    'titulo':'Formación académica',
+    'icon':'',
+    'url':''
+  },
+  {
+    'titulo':'Experiencia laboral',
+    'icon':'',
+    'url':''
+  }
+  ,
+  {
+    'titulo':'Habilidades',
+    'icon':'',
+    'url':''
+  }];
 }
